@@ -25,3 +25,17 @@ Shortcoming is that PAT includes the pre-ejection period (PEP) in addition to PT
 Since the PEP component depends on the electromechanical functioning of the heart, it can change independently of PTT and thus BP. 
 
 Because the ECG QRS-Complex is not the starting point for blood to actually enter the radial artery, it is a biopotential to depolarization of the sinus node
+
+</br>
+This project only for research</br>
+</br>
+![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/example.png?raw=true)
+
+</br>
+![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/ECG%20%2B%20PPG(IR%20and%20RED)-2.png?raw=true)
+</br>
+</br>
+![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/filter.png?raw=true)
+</br>
+</br>
+![alt text](![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/filter.png?raw=true)?raw=true)
