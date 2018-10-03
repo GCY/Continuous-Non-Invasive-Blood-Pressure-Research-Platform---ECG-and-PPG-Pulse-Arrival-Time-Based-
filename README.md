@@ -48,7 +48,7 @@ This project only for research</br>
 
 </br>
 </br>
-Reference :
+Reference :</br>
 [1] Continuous Blood Pressure Measurement from Invasive to Unobtrusive: Celebration of 200th Birth Anniversary of Carl Ludwig</br>
-[2] Cuff-Less and Continuous Blood Pressure Monitoring: A Methodological Review
+[2] Cuff-Less and Continuous Blood Pressure Monitoring: A Methodological Review</br>
 
