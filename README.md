@@ -1,5 +1,5 @@
 # Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-
-This project is cuffless cNIBP research platform with ECG(two-electrode) and PPG
+This project is cuffless cNIBP research platform with ECG(two-electrode) and PPG(MAX30100)
 
 
 In cuffless non-invasive blood pressure monitor field, we with the accurate calibration of PAT to BP, beat-to-beat BP can be estimated from PAT. On the basis of the theoretical relationship between PAT and BP and their experimental or empirical relationship, various models that correlate PAT with BP have been established.</br>
