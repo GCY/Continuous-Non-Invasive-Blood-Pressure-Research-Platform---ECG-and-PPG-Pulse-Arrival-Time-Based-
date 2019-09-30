@@ -1,7 +1,35 @@
 # Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-
-This project is cuffless cNIBP research platform with ECG(two-electrode) and PPG(MAX30100)
+This project is cuffless cNIBP research platform with ECG(two-electrode, without Right Leg Drive(RLD) ) and PPG(MAX30100)
 
+## Hardware
 
+### V3
+
+- STM32F405
+- ECG : INA827+LM324PWR(without RLD)
+- Electrode : PCB Pads and NeuroSky EEG dry 6mm electrode(Pinhole PAD1 & PAD2) [NeuroSky](http://neurosky.com)
+- PPG : LArm
+- LCM : 128x64 SSD1306
+- OUTPUT : USB-FS VCP
+- Charger : TP4056*
+
+</br>
+
+![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/v3%20pic.jpg?raw=true)
+
+### V1
+- STM32F407
+- ECG : INA827+LM324PWR(without RLD)
+- Electrode : PCB Pads
+- PPG : LArm and RArm
+- LCM : 128x64 SSD1306
+- OUTPUT : UART
+
+</br>
+
+![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/example.png?raw=true)
+
+## What's cuff-less blood pressure monitor and difference between Pulse Arrival Time(PAT and Pulse Transit Time(PTT)
 In cuffless non-invasive blood pressure monitor field, we with the accurate calibration of PAT to BP, beat-to-beat BP can be estimated from PAT. On the basis of the theoretical relationship between PAT and BP and their experimental or empirical relationship, various models that correlate PAT with BP have been established.</br>
 </br>
 PAT and BP with Regression: </br>
@@ -27,22 +55,8 @@ Since the PEP component depends on the electromechanical functioning of the hear
 Because the ECG QRS-Complex is not the starting point for blood to actually enter the radial artery, it is a biopotential to depolarization of the sinus node
 
 </br>
-This project only for research</br>
-</br>
 
-![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/example.png?raw=true)
-
-</br>
-
-![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/ECG%20%2B%20PPG(IR%20and%20RED)-2.png?raw=true)
-
-</br>
-</br>
-
-![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/filter.png?raw=true)
-
-</br>
-
+## This project only for research</br>
 </br>
 
 ![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/ecg%20osc.png?raw=true)
@@ -54,7 +68,8 @@ This project only for research</br>
 
 </br>
 </br>
-Reference :</br>
-[1] Continuous Blood Pressure Measurement from Invasive to Unobtrusive: Celebration of 200th Birth Anniversary of Carl Ludwig</br>
-[2] Cuff-Less and Continuous Blood Pressure Monitoring: A Methodological Review</br>
+
+### Reference :
+- [1] Continuous Blood Pressure Measurement from Invasive to Unobtrusive: Celebration of 200th Birth Anniversary of Carl Ludwig</br>
+- [2] Cuff-Less and Continuous Blood Pressure Monitoring: A Methodological Review</br>
 
