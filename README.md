@@ -25,6 +25,13 @@ This project is cuffless cNIBP research platform with ECG(two-electrode, without
 - LCM : 128x64 SSD1306
 - OUTPUT : UART
 
+## Firmware
+This firmware only for hardware testing, includes USB-FS VCP, Max30100 Spo2 Mode, ADC-DMA and LCM.</br>
+
+## Software
+### [wxECGAnalyzer](https://github.com/GCY/wxECGAnalyzer) - cross platform ECG signal process tool and QRS-Complex detection algorithm validation
+### [Pulse Oximeter MAX3010X](https://github.com/GCY/Pulse-Oximeter-with-MAX3010X) - Spo2 r-ratio finetune tool
+
 </br>
 
 ![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/example.png?raw=true)
