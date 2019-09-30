@@ -11,6 +11,7 @@ This project is cuffless cNIBP research platform with ECG(two-electrode, without
 - PPG : LArm
 - LCM : 128x64 SSD1306
 - OUTPUT : USB-FS VCP
+- Charger : TP4056*
 
 </br>
 
