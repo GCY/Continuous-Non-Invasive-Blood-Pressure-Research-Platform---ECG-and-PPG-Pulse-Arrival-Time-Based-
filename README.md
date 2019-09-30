@@ -5,11 +5,24 @@ This project is cuffless cNIBP research platform with ECG(two-electrode, without
 
 ### V3
 
+- STM32F405
+- ECG : INA827+LM324PWR(without RLD)
+- Electrode : PCB Pads and NeuroSky EEG dry 6mm electrode(Pinhole PAD1 & PAD2)
+- PPG : LArm
+- LCM : 128x64 SSD1306
+- OUTPUT : USB-FS VCP
+
 </br>
 
 ![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/v3%20pic.jpg?raw=true)
 
 ### V1
+- STM32F407
+- ECG : INA827+LM324PWR(without RLD)
+- Electrode : PCB Pads
+- PPG : LArm and RArm
+- LCM : 128x64 SSD1306
+- OUTPUT : UART
 
 </br>
 
