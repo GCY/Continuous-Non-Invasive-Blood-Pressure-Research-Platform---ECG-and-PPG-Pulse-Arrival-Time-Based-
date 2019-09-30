@@ -4,6 +4,8 @@ This project is cuffless cNIBP research platform with ECG(two-electrode, without
 ## Hardware
 
 ### V3
+</br>
+![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/v3%20pic.jpg?raw=true)
 
 ### V1
 
