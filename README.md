@@ -13,6 +13,11 @@ This project is cuffless cNIBP research platform with ECG(two-electrode, without
 - OUTPUT : USB-FS VCP
 - Charger : TP4056*
 
+#### Note
+- TP4056 - mV level peak-to-peak noise... so, jump VBUS to switch...
+- D1 - replace to 0R resistor, reduce LDO VDDA noise.
+- Unplug the NB AC adapter.
+
 </br>
 
 ![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/v3%20pic.jpg?raw=true)
