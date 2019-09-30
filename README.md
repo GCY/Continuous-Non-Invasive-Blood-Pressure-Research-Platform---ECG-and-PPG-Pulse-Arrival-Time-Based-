@@ -1,7 +1,15 @@
 # Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-
 This project is cuffless cNIBP research platform with ECG(two-electrode, without Right Leg Drive(RLD) ) and PPG(MAX30100)
 
+## Hardware
 
+### V3
+
+### V1
+
+</br>
+
+![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/example.png?raw=true)
 
 ## What's cuff-less blood pressure monitor and difference between Pulse Arrival Time(PAT and Pulse Transit Time(PTT)
 In cuffless non-invasive blood pressure monitor field, we with the accurate calibration of PAT to BP, beat-to-beat BP can be estimated from PAT. On the basis of the theoretical relationship between PAT and BP and their experimental or empirical relationship, various models that correlate PAT with BP have been established.</br>
@@ -31,15 +39,6 @@ Because the ECG QRS-Complex is not the starting point for blood to actually ente
 </br>
 
 ## This project only for research</br>
-
-</br>
-
-![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/example.png?raw=true)
-
-</br>
-
-</br>
-
 </br>
 
 ![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/ecg%20osc.png?raw=true)
@@ -51,7 +50,7 @@ Because the ECG QRS-Complex is not the starting point for blood to actually ente
 
 </br>
 </br>
-Reference :</br>
-[1] Continuous Blood Pressure Measurement from Invasive to Unobtrusive: Celebration of 200th Birth Anniversary of Carl Ludwig</br>
-[2] Cuff-Less and Continuous Blood Pressure Monitoring: A Methodological Review</br>
+### Reference :
+- [1] Continuous Blood Pressure Measurement from Invasive to Unobtrusive: Celebration of 200th Birth Anniversary of Carl Ludwig</br>
+- [2] Cuff-Less and Continuous Blood Pressure Monitoring: A Methodological Review</br>
 
