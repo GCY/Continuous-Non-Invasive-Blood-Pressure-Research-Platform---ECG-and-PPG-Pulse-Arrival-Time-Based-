@@ -26,7 +26,7 @@ This project is cuffless cNIBP research platform with ECG(two-electrode, without
 - OUTPUT : UART
 
 ## Firmware
-This firmware only for hardware testing, includes USB-FS VCP, Max30100 Spo2 Mode, ADC-DMA and LCM.</br>
+This firmware only for testing hardware, includes USB-FS VCP, Max30100 Spo2 Mode, ADC-DMA and LCM.</br>
 
 ## Software
 ### [wxECGAnalyzer](https://github.com/GCY/wxECGAnalyzer) - cross platform ECG signal process tool and QRS-Complex detection algorithm validation
