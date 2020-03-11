@@ -3,6 +3,18 @@ This project is cuffless cNIBP research platform with ECG(two-electrode, without
 
 ## Hardware
 
+### V4
+
+coming soon...
+
+- STM32F405
+- ECG : INA333+AD8669(without RLD)
+- Electrode : PCB Pads and NeuroSky EEG dry 6mm electrode(Pinhole PAD1 & PAD2) [NeuroSky](http://neurosky.com)
+- PPG : LArm
+- LCM : 128x64 SSD1306
+- OUTPUT : USB-FS VCP
+- Charger : BQ24014
+
 ### V3
 
 - STM32F405
