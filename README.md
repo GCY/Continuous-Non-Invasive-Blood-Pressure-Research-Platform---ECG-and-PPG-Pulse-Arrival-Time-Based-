@@ -53,7 +53,7 @@ This firmware only for testing hardware, includes USB-FS VCP, Max30100 Spo2 Mode
 
 ![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/example.png?raw=true)
 
-## What's cuff-less blood pressure monitor and difference between Pulse Arrival Time(PAT and Pulse Transit Time(PTT)
+## What's cuff-less blood pressure monitor and difference between Pulse Arrival Time(PAT) and Pulse Transit Time(PTT)
 In cuffless non-invasive blood pressure monitor field, we with the accurate calibration of PAT to BP, beat-to-beat BP can be estimated from PAT. On the basis of the theoretical relationship between PAT and BP and their experimental or empirical relationship, various models that correlate PAT with BP have been established.</br>
 </br>
 PAT and BP with Regression: </br>
