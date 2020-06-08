@@ -32,7 +32,7 @@ coming soon...
 
 </br>
 
-![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/v3%20pic.jpg?raw=true)
+![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/res/blob/master/v3%20pic.jpg?raw=true)
 
 ### V1
 - STM32F407
@@ -57,7 +57,7 @@ This firmware only for testing hardware, includes USB-FS VCP, Max30100 Spo2 Mode
 In cuffless non-invasive blood pressure monitor field, we with the accurate calibration of PAT to BP, beat-to-beat BP can be estimated from PAT. On the basis of the theoretical relationship between PAT and BP and their experimental or empirical relationship, various models that correlate PAT with BP have been established.</br>
 </br>
 PAT and BP with Regression: </br>
-![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/PAT%20and%20Regression.png?raw=true)
+![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/res/blob/master/PAT%20and%20Regression.png?raw=true)
 
 </br>
 </br>
