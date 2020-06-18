@@ -28,7 +28,7 @@ coming soon...
 - Charger : TP4056*
 
 #### Note
-- TP4056 have mV level peak-to-peak noise... so, jump VBUS to switch... ![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/without%20charger.png?raw=true)
+- TP4056 have mV level peak-to-peak noise... so, jump VBUS to switch... ![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/res/without%20charger.png?raw=true)
 - Replace D1 to 0R resistor, reduce LDO VDDA noise.
 - Unplug the NB AC adapter.
 
