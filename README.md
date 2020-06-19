@@ -87,7 +87,7 @@ Because the ECG QRS-Complex is not the starting point for blood to actually ente
 ## This project only for research</br>
 </br>
 
-![](http://img.youtube.com/vi/RtydQm8okKk/0.jpg)](https://www.youtube.com/watch?v=RtydQm8okKk)
+[![](http://img.youtube.com/vi/RtydQm8okKk/0.jpg)](https://www.youtube.com/watch?v=RtydQm8okKk)
 
 </br>
 
