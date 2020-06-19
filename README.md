@@ -87,14 +87,8 @@ Because the ECG QRS-Complex is not the starting point for blood to actually ente
 ## This project only for research</br>
 </br>
 
-![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/res/ecg%20osc.png?raw=true)
+![](http://img.youtube.com/vi/RtydQm8okKk/0.jpg)](https://www.youtube.com/watch?v=RtydQm8okKk)
 
-</br>
-</br>
-
-[![Audi R8](http://img.youtube.com/vi/lEdaMjn-bFg/0.jpg)](https://youtu.be/lEdaMjn-bFg)
-
-</br>
 </br>
 
 ### Reference :
