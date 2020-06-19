@@ -49,6 +49,10 @@ coming soon...
 ## Firmware
 This firmware only for testing, includes USB-FS VCP, Max3010x Spo2 algorithm, PPG and ECG signal oscilloscope display.</br>
 
+ - cd ./firmware/stm32f405/src/
+ - make
+ - load *.elf
+ - run
 ## Software
 [wxECGAnalyzer](https://github.com/GCY/wxECGAnalyzer) is a QRS-Complex ECG signal process tool and QRS-Complex detection algorithm validation tools, [Pulse Oximeter MAX3010X](https://github.com/GCY/Pulse-Oximeter-with-MAX3010X) is a Spo2 signal process and r-ratio finetune tool, combining the two tools, could implement the PAT-BP regression algorithm.
 
