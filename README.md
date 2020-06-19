@@ -1,5 +1,5 @@
 # Continuous Non-Invasive Blood Pressure Research Platform - ECG and PPG Pulse Arrival Time Based
-This project is cuffless cNIBP research platform with ECG(two-electrode, without Right Leg Drive(RLD) ) and PPG(MAX30100)
+This project is cuffless cNIBP research platform with ECG(two-electrode, without Right Leg Drive(RLD) ) and PPG(MAX30100),  the Pulse Arrival Time (PAT) using ECG and PPG signal, measure the time delay between QRS-Complex of the ECG signal and any one systolic peak of the PPG signal.
 
 <p align="center">
  <img src="https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/res/v3%20demo.gif">
