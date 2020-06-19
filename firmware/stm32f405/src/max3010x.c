@@ -61,16 +61,20 @@ void Init_I2C2()
 #if defined(_MAX30100_)
 void Init_MAX30100()
 {
+   I2C_Write(I2C2,MAX30100_ADDRESS,MAX30100_MODE_CONFIG, 0x40);
+   Delay(5000);
    I2C_Write(I2C2,MAX30100_ADDRESS,MAX30100_MODE_CONFIG,MAX3010x_MODE_SPO2_HR);
+   Delay(5000);
+   I2C_Write(I2C2,MAX30100_ADDRESS,MAX30100_INT_ENABLE, 0x10);
    Delay(5000);
    I2C_Write(I2C2,MAX30100_ADDRESS,MAX30100_LED_CONFIG,(i27 << 4) | FIX_IR_CURRENT);
    Delay(5000);
    I2C_Write(I2C2,MAX30100_ADDRESS,MAX30100_SPO2_CONFIG,(sr100<<2) | pw1600);
    Delay(5000);
-
-   //I2C_Write(I2C2,MAX30100_ADDRESS,MAX30100_INT_ENABLE, ((hr+1) << 4));
-
-   /*
+   I2C_Write(I2C2,MAX30100_ADDRESS,MAX30100_FIFO_WR_PTR,0x00);
+   I2C_Write(I2C2,MAX30100_ADDRESS,MAX30100_OVRFLOW_CTR,0x00);
+   I2C_Write(I2C2,MAX30100_ADDRESS,MAX30100_FIFO_RD_PTR,0x00);
+/*
       I2C_start(I2C2, MAX30100_ADDRESS, I2C_Direction_Transmitter); 
       I2C_write(I2C2, MAX30100_INT_ENABLE); 
       I2C_stop(I2C2); 
@@ -85,6 +89,7 @@ void Init_MAX30100()
 
 void Read_MAX30100()
 {
+   
    I2C_start(I2C2, MAX30100_ADDRESS, I2C_Direction_Transmitter); 
    I2C_write(I2C2, MAX30100_FIFO_DATA); 
    I2C_stop(I2C2); 
@@ -95,9 +100,21 @@ void Read_MAX30100()
    received_data[2] = I2C_read_ack(I2C2);
    received_data[3] = I2C_read_nack(I2C2); 
    I2C_stop(I2C2);
-
+   
    IR = (received_data[0]<<8) | received_data[1];;      // Last IR reflectance datapoint
    RED = (received_data[2]<<8) | received_data[3];;     // Last Red reflectance datapoint   
+}
+
+bool Read_MAX30100_INT()
+{
+   I2C_start(I2C2, MAX30100_ADDRESS, I2C_Direction_Transmitter); 
+   I2C_write(I2C2, MAX30100_INT_STATUS); 
+   I2C_stop(I2C2); 
+   uint8_t received_data[1];
+   I2C_start(I2C2, MAX30100_ADDRESS, I2C_Direction_Receiver);
+   received_data[0] = I2C_read_nack(I2C2); 
+   I2C_stop(I2C2);
+   return received_data[0] & 0x10;
 }
 
 #elif defined(_MAX30102_)
