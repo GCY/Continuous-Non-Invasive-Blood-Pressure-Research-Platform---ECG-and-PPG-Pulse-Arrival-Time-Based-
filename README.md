@@ -4,6 +4,7 @@ This project is cuffless cNIBP research platform with ECG(two-electrode, without
 <p align="center">
  <img src="https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/res/v3%20demo.gif">
 </p>
+
 ## Hardware
 
 ### V4
@@ -46,11 +47,11 @@ coming soon...
 - OUTPUT : UART
 
 ## Firmware
-This firmware only for testing hardware, includes USB-FS VCP, Max30100 Spo2 Mode, ADC-DMA and LCM.</br>
+This firmware only for testing, includes USB-FS VCP, Max3010x Spo2 algorithm, PPG and ECG signal oscilloscope display.</br>
 
 ## Software
-### [wxECGAnalyzer](https://github.com/GCY/wxECGAnalyzer) - cross platform ECG signal process tool and QRS-Complex detection algorithm validation
-### [Pulse Oximeter MAX3010X](https://github.com/GCY/Pulse-Oximeter-with-MAX3010X) - Spo2 r-ratio finetune tool
+[wxECGAnalyzer](https://github.com/GCY/wxECGAnalyzer) is a QRS-Complex ECG signal process tool and QRS-Complex detection algorithm validation tools, [Pulse Oximeter MAX3010X](https://github.com/GCY/Pulse-Oximeter-with-MAX3010X) is a Spo2 signal process tool r-ratio finetune tool, combining the two tools, could implement the PAT and BP regression algorithm.
+
 
 </br>
 
