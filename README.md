@@ -137,4 +137,4 @@ OSHW Certification
 
 https://certification.oshwa.org/tw000003.html
 
-![alt text](https://github.com/GCY/Atrial-Fibrillation-Detection-Blood-Pressure-Monitor-Oscillometric-Method-/blob/master/res/OSHW_mark_TW000003.png?raw=true) 
+![alt text](https://github.com/GCY/Continuous-Non-Invasive-Blood-Pressure-Research-Platform---ECG-and-PPG-Pulse-Arrival-Time-Based-/blob/master/res/OSHW_mark_TW000003.png?raw=true) 
